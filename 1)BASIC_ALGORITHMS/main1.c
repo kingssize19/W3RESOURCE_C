@@ -1,5 +1,6 @@
-### Write a C program to compute the sum of the two input values. If the two values are the same, then return triple their sum.
+#### Write a C program to compute the sum of the two input values. If the two values are the same, then return triple their sum.
 
+```C
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,3 +18,4 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+```
