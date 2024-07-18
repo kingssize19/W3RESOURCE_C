@@ -11,8 +11,13 @@ int main(int argc, char *argv[]) {
 	printf("Please enter the two numbers : ");
 	scanf("%d%d", &ival1, &ival2);
 	
-	int result = ival1 + ival2;
+	int result;
 	
+	if (ival1 == ival2)
+		result = 3 * (ival1 + ival2);
+	else
+		result = ival1 + ival2;
+				
 	printf("%d + %d = %d\n", ival1, ival2, result);
 	
 	return 0;
