@@ -37,19 +37,3 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
-
-
-
-
-int main(int argc, char *argv[]) {
-
-	int ival;
-	
-	printf("Lutfen bir sayi giriniz : ");
-	scanf("%d", &ival);
-	
-	printf("%d sayisi %d basamakli.", ival, bas_sayi(ival));
-
-	
-	return 0;
-}
